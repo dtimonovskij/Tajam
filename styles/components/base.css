@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+*:last-child {
+  margin-bottom: 0;
+}
+html {
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  background-color: #ffffff;
+  color: #413d4b;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  max-width: 982px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  font-size: 30px;
+  font-weight: 400;
+  color: transparent;
+}
+.logo-image {
+  color: transparent;
+  display: flex;
+  width: 44px;
+  height: 50px;
+  margin-right: 11px;
+}
+.big-logo {
+  width: 235px;
+  height: 229px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+figure {
+  margin: 0;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+  font-family: "Playfair Display", serif;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}

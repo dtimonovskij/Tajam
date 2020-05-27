@@ -1,0 +1,43 @@
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.row > .column {
+  padding: 10px;
+}
+
+.row-large {
+  margin: -33px;
+}
+.row-large > .column {
+  padding: 33px;
+}
+.row-small > .column {
+  padding: 0px;
+}
+.row-bid > .column {
+  padding-right: 100px;
+}
+.row-medium {
+  margin: -40px;
+}
+.row-medium > .column {
+  padding: 40px;
+}
+.row-grand {
+  margin: -50px;
+}
+.row-grand > .column {
+  padding: 50px;
+}
+.row-footer {
+  margin: -30px;
+}
+.row-footer > .column {
+  padding: 30px;
+}
